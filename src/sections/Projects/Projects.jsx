@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import dragons from '../../assets/dragons.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import viberr from "../../assets/viberr.png";
+import freshBurger from "../../assets/fresh-burger.png";
+import dragons from "../../assets/dragons.png";
+import fitLift from "../../assets/fitlift.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -15,7 +15,6 @@ function Projects() {
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="Drum KIt"
           p="Drum App"
-
         />
         <ProjectCard
           src={freshBurger}
